@@ -1,0 +1,43 @@
+# hello from hard link
+# can just generate the pdfs that I need
+*.pdf
+
+# c & c++ lsp
+.ccls-cache/
+*.o
+*.out
+# valgrind
+vgcore.*
+
+.obsidian/
+.vault-stats
+.vscode/
+.projectile
+
+# latex stuff
+_minted*
+*.log
+*.aux
+*.synctex.gz
+*.auctex-auto/
+
+# mp4's are gonna be fat
+*.mp4
+*.mkv
+
+# racket files
+*.bak
+*.rkt~
+compiled/
+
+
+# geog data
+geog_data/
+
+# manim stuff
+media/Tex/
+media/videos/
+
+
+*.dnt
+dnt*

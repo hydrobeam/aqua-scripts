@@ -69,7 +69,7 @@ def dl(s, p:bool=False, **kwargs):
     tmp = latex(s, **kwargs)
     if p:
         tmp = prettify(tmp)
-    return "\[" + tmp + "\]\n"
+    return "\\[" + tmp + "\\]\n"
 
 def il(s, p=False, **kwargs):
     """Inline output.
@@ -85,4 +85,4 @@ def il(s, p=False, **kwargs):
     tmp = latex(s, **kwargs)
     if p:
         tmp = prettify(tmp)
-    return "\(" + tmp + "\)"
+    return "\\(" + tmp + "\\)"
